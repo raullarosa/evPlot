@@ -1,5 +1,43 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+html {
+    background: linear-gradient(#DF5F5F, #CC0000);
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.App {
+    padding-top: 20px;
+}
+
+.break {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.center {
+    text-align: center;
 }
