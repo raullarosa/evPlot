@@ -1,18 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Icon } from 'react-materialize'
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App container center">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h1 className="bold">evPlot</h1>
+          <div className="break"></div>
+          <h3>Because people need to know what cleaning our air feels</h3>
+          <div className="break"></div>
+          <div className="break"></div>
+          <h5 className="light">Submit your experience at a Tesla Supercharger <br/>
+or Destination Charging station below</h5>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div>
+          <p className="light">
+            Currently under development<br/>
+            Contact the <a href="https://www.messenger.com/t/rlarosa1996" target="_blank">developer</a> if you have any suggestions. This project is open for contribution on <a href="https://github.com/raullarosa/evPlot" target="_blank">Github</a>
+          </p>
+        </div>
       </div>
     );
   }
